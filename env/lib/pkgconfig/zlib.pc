@@ -1,0 +1,13 @@
+prefix=/Users/dhruvshrinet/Desktop/Document_portal/env
+exec_prefix=/Users/dhruvshrinet/Desktop/Document_portal/env
+libdir=/Users/dhruvshrinet/Desktop/Document_portal/env/lib
+sharedlibdir=/Users/dhruvshrinet/Desktop/Document_portal/env/lib
+includedir=/Users/dhruvshrinet/Desktop/Document_portal/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
