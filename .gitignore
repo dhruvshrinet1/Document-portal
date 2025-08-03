@@ -2,4 +2,4 @@
 env
 logs/
 *.pyc
-data/
+data/.env
